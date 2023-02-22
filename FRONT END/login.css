@@ -1,0 +1,46 @@
+.login img{
+    position: absolute;
+    bottom: -20px;
+    left: -17%;
+    width: 80%;
+
+}
+.right{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    top: 8%;
+    left: 57%;
+    width: 500px;
+    height: 520px;
+    border-radius: 20px;
+    padding: 160px 50px;
+}
+.right input{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 0px 5px 15px;
+    margin-bottom: 20px;
+    }
+.right .login-btn{
+    background: #f42c37;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 6px 20px;
+    position: absolute;
+    top: 64%;
+    left: 72%;
+    transition: .2s ease-in-out;
+}
+.right .login-btn:hover{
+    color: black;
+    border-color: black;
+    background-color: transparent;
+}
+.register{
+    display: inline-block;
+    padding-top: 20px;
+    color: black;
+}
